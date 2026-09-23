@@ -26,7 +26,7 @@ public class PA1 {
         // Copia de los datos iniciales al arreglo principal
         for (int i = 0; i < usados; i++) {
             inscritos[i] = datosIniciales[i];
-            //notas[i] = datosIniciales[i];
+            notas[i] = datosIniciales[i];
         }
 
         // 2.1 Representacion del vector
@@ -71,17 +71,16 @@ public class PA1 {
         
          //{28, 15, 34, 21, 19, 40, 12, 26,xx}; //desplazo los valores a una posicion adicional que es la posicion 8
             for (int i = usados; i > posicion; i--) {
-                //notas[i] = notas[i - 1]; 
-                inscritos[i] = inscritos[i - 1];
+                notas[i] = notas[i - 1]; 
             }
 
-            inscritos[posicion] = valor; // asignando el nuevo valor en la posicion que se indique
+            notas[posicion] = valor; // asignando el nuevo valor en la posicion que se indique
             usados++; // expandiendo la capacidad del vector 
 
             System.out.println("Se inserto " + valor + " en el indice " + posicion);
             System.out.println("Vector despues de la insercion:");
 
-            ejemploUsados(inscritos, usados);
+            ejemploUsados(notas, usados);
             System.out.println();
 
 
@@ -145,17 +144,28 @@ public class PA1 {
         System.out.println("]");
     }
 
-    // ============================================================
+ // ============================================================
     // 2.5 EFICIENCIA DEL ORDENAMIENTO
     // ============================================================
     public static void ejemploEficiencia() {
 
         System.out.println("-------------------- 2.5 EFICIENCIA DEL ORDENAMIENTO --------------------");
-        System.out.println("Metodo utilizado: Ordenamiento Burbuja");
-        System.out.println("Mejor caso: O(n^2)");
-        System.out.println("Peor caso: O(n^2)");
-        System.out.println("El algoritmo utiliza dos ciclos para realizar las comparaciones entre los elementos.");
-        System.out.println("Cuando un elemento es mayor que el siguiente, se realiza un intercambio.");
+        System.out.println("Metodo utilizado: Ordenamiento por Burbuja.");
+        System.out.println();
+        System.out.println("1. Mejor Caso:");
+        System.out.println("   - Ocurre cuando el vector ya se encuentra completamente ordenado de menor a mayor.");
+        System.out.println("   - En este caso, el algoritmo realiza las comparaciones entre elementos adyacentes,");
+        System.out.println("     pero no tiene que realizar ningun intercambio de posiciones.");
+        System.out.println();
+        System.out.println("2. Peor Caso:");
+        System.out.println("   - Ocurre cuando el vector esta en orden totalmente inverso (de mayor a menor).");
+        System.out.println("   - En este caso, el algoritmo debe realizar la mayor cantidad de comparaciones");
+        System.out.println("     e intercambios posibles, ya que cada elemento debe desplazarse hasta el otro extremo.");
+        System.out.println();
+        System.out.println("Explicacion del algoritmo:");
+        System.out.println("El algoritmo utiliza dos ciclos 'for' anidados para comparar elementos vecinos.");
+        System.out.println("Si un elemento es mayor que el siguiente, intercambian de lugar.");
+        System.out.println("Este proceso repite las pasadas necesarias hasta que los valores mayores queden al final.");
         System.out.println();
     }
 
