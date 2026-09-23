@@ -1,7 +1,7 @@
-\# Actividad 1: Análisis del Problema y selección de Estructura
+# Actividad 1: Análisis del Problema y selección de Estructura
 
 
-\## 1. Diferencia entre estructura estática y estructura dinámica
+## 1. Diferencia entre estructura estática y estructura dinámica
 
 Una estructura de datos estática tiene un tamaño definido antes de ejecutar el programa y este no cambia durante su ejecución. Un ejemplo es el arreglo, porque se establece previamente la cantidad de posiciones que tendrá.
 
@@ -13,16 +13,16 @@ Para este caso utilizaremos estructuras lineales estáticas, principalmente arre
 ---
 
 
-\## 2. ¿Por qué resulta adecuado trabajar con arreglos y matrices?
+## 2. ¿Por qué resulta adecuado trabajar con arreglos y matrices?
 
 
-\### Arreglos
+### Arreglos
 
 Los arreglos son adecuados para trabajar con las cantidades de estudiantes porque permiten guardar varios valores en posiciones determinadas mediante índices y con un tamaño establecido.
 
 En nuestro caso, el arreglo representa la cantidad de inscritos por taller.
 
-\### Matrices
+### Matrices
 
 Las matrices permiten organizar información considerando dos dimensiones. En nuestro caso, pueden utilizarse para representar información relacionada con las aulas y los bloques horarios.
 
@@ -31,7 +31,7 @@ De esta manera, las matrices permiten organizar información cuando se necesita 
 ---
 
 
-\## 3. Relación entre dato, algoritmo y estructura de datos
+## 3. Relación entre dato, algoritmo y estructura de datos
 
 
 Estos tres conceptos se relacionan directamente en nuestra solución.
