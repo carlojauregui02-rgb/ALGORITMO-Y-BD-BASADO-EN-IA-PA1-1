@@ -22,27 +22,11 @@ Los arreglos son adecuados para trabajar con las cantidades de estudiantes porqu
 
 En nuestro caso, el arreglo representa la cantidad de inscritos por taller.
 
-Vector utilizado:
-
-[28, 15, 34, 21, 19, 40, 12, 26]
-
 \### Matrices
 
-Las matrices permiten organizar información considerando dos dimensiones. En nuestro caso, utilizamos:
+Las matrices permiten organizar información considerando dos dimensiones. En nuestro caso, pueden utilizarse para representar información relacionada con las aulas y los bloques horarios.
 
-Filas: aulas.
-Columnas: bloques horarios.
-
-Por ello, utilizamos una matriz de 4 filas por 5 columnas:
-
-| | Horario 1 | Horario 2 | Horario 3 | Horario 4 | Horario 5 |
-|---|---:|---:|---:|---:|---:|
-| Aula 1 | 20 | 15 | 30 | 25 | 18 |
-| Aula 2 | 12 | 28 | 22 | 35 | 16 |
-| Aula 3 | 25 | 18 | 32 | 20 | 27 |
-| Aula 4 | 10 | 24 | 19 | 30 | 14 |
-
-De esta manera podemos representar la cantidad de estudiantes que corresponde a cada aula y horario.
+De esta manera, las matrices permiten organizar información cuando se necesita trabajar con filas y columnas.
 
 ---
 
