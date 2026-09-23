@@ -43,5 +43,5 @@ Estos tres conceptos se relacionan directamente en nuestra solución.
 | Algoritmo | Permite procesar los datos |
 | Resultado | Información obtenida |
 
-En nuestro caso, primero tenemos los datos de los estudiantes, luego los almacenamos en una estructura y finalmente aplicamos los algoritmos necesarios para obtener los resultados.
+En nuestro caso, los datos de los estudiantes se organizan mediante una estructura de datos y se procesan mediante algoritmos para obtener la información requerida.
 
