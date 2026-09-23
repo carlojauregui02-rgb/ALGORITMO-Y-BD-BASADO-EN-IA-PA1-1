@@ -7,7 +7,7 @@ Una estructura de datos estática tiene un tamaño definido antes de ejecutar el
 
 En cambio, una estructura de datos dinámica puede cambiar su tamaño durante la ejecución, dependiendo de la cantidad de información que se necesite almacenar. Un ejemplo es una lista, que puede agregar o quitar elementos.
 
-Para este caso utilizaremos estructuras lineales estáticas, principalmente arreglos y matrices, porque son las estructuras indicadas para resolver esta primera etapa del sistema.
+Para este caso utilizaremos estructuras lineales estáticas, principalmente arreglos y matrices, porque permiten organizar la información de los estudiantes considerando las cantidades de inscritos, las aulas y los bloques horarios.
 
 
 ---
@@ -55,7 +55,7 @@ Estos tres conceptos se relacionan directamente en nuestra solución.
 | Concepto | Descripción |
 |---|---|
 | Dato | Cantidad de estudiantes inscritos |
-| Estructura de datos | Arreglo / vector |
+| Estructura de datos | Arreglo / vector y matriz|
 | Algoritmo | Permite procesar los datos |
 | Resultado | Información obtenida |
 
