@@ -29,22 +29,33 @@ Plantear una solución utilizando estructuras lineales estáticas para organizar
 **Solución desarrollada:**  
 La solución se plantea inicialmente mediante el análisis y selección de estructuras de datos estáticas, justificando el uso de vectores y matrices para el caso. Luego se aplican operaciones sobre un vector para representar, buscar, insertar y ordenar datos de inscritos, y se utiliza una matriz para representar y procesar la ocupación de aulas y horarios. Finalmente, se analizan matrices especiales para reconocer situaciones en las que una matriz poco densa puede ser más conveniente. 
 
-\#\#\# Actividad 1   
-\[Aquí va el desarrollo completo de la Actividad 1.\]   
-\*\*Documentacion complementaria:\*\*   
-\[Ver Actividad 1\](documentacion/Actividad1.md) 
+### Actividad 1
 
-\#\#\# Actividad 2 \[Aquí va el desarrollo completo de la Actividad 2.\]   
-\*\*Documentacion complementaria:\*\*   
-\[Ver Actividad 2\](documentacion/Actividad2.md) 
+[Aquí va el desarrollo completo de la Actividad 1.]
 
-\#\#\# Actividad 3 \[Aquí va el desarrollo completo de la Actividad 3.\]   
-\*\*Documentacion complementaria:\*\*   
-\[Ver Actividad 3\](documentacion/Actividad3.md) 
+**Documentación complementaria:**  
+[Ver Actividad 1](documentacion/Actividad1.md)
 
-\#\#\# Actividad 4 \[Aquí va el desarrollo completo de la Actividad 4.\] 
-\*\*Documentacion complementaria:\*\* 
-\[Ver Actividad 4\](documentación/Actividad4.md) 
+### Actividad 2
+
+[Aquí va el desarrollo completo de la Actividad 2.]
+
+**Documentación complementaria:**  
+[Ver Actividad 2](documentacion/Actividad2.md)
+
+### Actividad 3
+
+[Aquí va el desarrollo completo de la Actividad 3.]
+
+**Documentación complementaria:**  
+[Ver Actividad 3](documentacion/Actividad3.md)
+
+### Actividad 4
+
+[Aquí va el desarrollo completo de la Actividad 4.]
+
+**Documentación complementaria:**  
+[Ver Actividad 4](documentacion/Actividad4.md)
 
 ## 3\. Cómo ejecutar o revisar
 
@@ -73,9 +84,9 @@ La solución se plantea inicialmente mediante el análisis y selección de estru
 
 Se presentan los enlaces correspondientes a las capturas de pantalla que evidencian el desarrollo y funcionamiento de las actividades:
 
-- \[Actividad 2 – Parte 1\](evidencias/actividad2\_parte1.png)  
-- \[Actividad 2 – Parte 2\](evidencias/actividad2\_parte2.png)   
-- \[Actividad 3\](evidencias/actividad3.png)
+- [Actividad 2 – Parte 1](evidencias/actividad2_parte1.png)
+- [Actividad 2 – Parte 2](evidencias/actividad2_parte2.png)
+- [Actividad 3](evidencias/actividad3.png)
 
 
 ## 5\. Matriz de participación
