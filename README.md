@@ -42,7 +42,9 @@ La solución se plantea inicialmente mediante el análisis y selección de estru
 \*\*Documentacion complementaria:\*\*   
 \[Ver Actividad 3\](documentacion/Actividad3.md) 
 
-\#\#\# Actividad 4 \[Aquí va el desarrollo completo de la Actividad 4.\] \*\*Documentación complementaria:\*\* \[Ver Actividad 4\](documentación/Actividad4.md) 
+\#\#\# Actividad 4 \[Aquí va el desarrollo completo de la Actividad 4.\] 
+\*\*Documentacion complementaria:\*\* 
+\[Ver Actividad 4\](documentación/Actividad4.md) 
 
 ## 3\. Cómo ejecutar o revisar
 
