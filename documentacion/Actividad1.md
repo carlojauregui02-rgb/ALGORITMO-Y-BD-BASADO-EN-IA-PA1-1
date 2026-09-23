@@ -52,15 +52,7 @@ De esta manera podemos representar la cantidad de estudiantes que corresponde a 
 
 Estos tres conceptos se relacionan directamente en nuestra solución.
 
-Dato: es la cantidad de estudiantes inscritos en cada taller.
-Estructura de datos: es el arreglo que utilizamos para almacenar esas cantidades.
-Algoritmo: son los pasos que utilizamos para trabajar con los datos, por ejemplo, buscar el mayor y el menor, insertar un valor y ordenar el arreglo.
-Resultado: son los datos procesados y organizados para poder consultarlos.
-
-Podemos representarlo así:
-
-
-| Elemento | Descripción |
+| Concepto | Descripción |
 |---|---|
 | Dato | Cantidad de estudiantes inscritos |
 | Estructura de datos | Arreglo / vector |
