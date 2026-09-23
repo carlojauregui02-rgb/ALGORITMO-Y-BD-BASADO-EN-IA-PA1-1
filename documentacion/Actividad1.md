@@ -39,9 +39,9 @@ Estos tres conceptos se relacionan directamente en nuestra solución.
 | Concepto | Aplicación en la solución |
 |---|---|
 | Dato | Cantidad de estudiantes inscritos |
-| Estructura de datos | Arreglo / vector y matriz|
+| Estructura de datos | Vectores y matrices|
 | Algoritmo | Permite procesar los datos |
 
 
-Los datos corresponden a la información que se necesita trabajar. El arreglo o vector y la matriz permiten organizar esta información, mientras que los algoritmos permiten procesarla para obtener los resultados requeridos.
+Los datos corresponden a la información que se necesita trabajar. Los vectores y las matrices permiten organizar esta información, mientras que los algoritmos permiten procesarla para obtener los resultados requeridos.
 
