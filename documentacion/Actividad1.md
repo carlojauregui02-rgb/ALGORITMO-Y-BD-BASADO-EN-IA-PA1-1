@@ -26,7 +26,7 @@ Vector utilizado:
 
 [28, 15, 34, 21, 19, 40, 12, 26]
 
-Matrices
+\### Matrices
 
 Las matrices permiten organizar información considerando dos dimensiones. En nuestro caso, utilizamos:
 
