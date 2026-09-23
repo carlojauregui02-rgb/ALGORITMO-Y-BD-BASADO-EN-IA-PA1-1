@@ -26,7 +26,7 @@ public class PA1 {
         // Copia de los datos iniciales al arreglo principal
         for (int i = 0; i < usados; i++) {
             inscritos[i] = datosIniciales[i];
-            notas[i] = datosIniciales[i];
+            //notas[i] = datosIniciales[i];
         }
 
         // 2.1 Representacion del vector
@@ -71,16 +71,17 @@ public class PA1 {
         
          //{28, 15, 34, 21, 19, 40, 12, 26,xx}; //desplazo los valores a una posicion adicional que es la posicion 8
             for (int i = usados; i > posicion; i--) {
-                notas[i] = notas[i - 1]; 
+                //notas[i] = notas[i - 1]; 
+                inscritos[i] = inscritos[i - 1];
             }
 
-            notas[posicion] = valor; // asignando el nuevo valor en la posicion que se indique
+            inscritos[posicion] = valor; // asignando el nuevo valor en la posicion que se indique
             usados++; // expandiendo la capacidad del vector 
 
             System.out.println("Se inserto " + valor + " en el indice " + posicion);
             System.out.println("Vector despues de la insercion:");
 
-            ejemploUsados(notas, usados);
+            ejemploUsados(inscritos, usados);
             System.out.println();
 
 
