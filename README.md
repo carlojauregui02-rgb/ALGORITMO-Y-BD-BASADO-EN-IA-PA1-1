@@ -31,15 +31,15 @@ La solución se plantea inicialmente mediante el análisis y selección de estru
 
 \#\#\# Actividad 1   
 \[Aquí va el desarrollo completo de la Actividad 1.\]   
-\*\*Documentación complementaria:\*\*   
+\*\*Documentacion complementaria:\*\*   
 \[Ver Actividad 1\](documentación/Actividad1.md) 
 
 \#\#\# Actividad 2 \[Aquí va el desarrollo completo de la Actividad 2.\]   
-\*\*Documentación complementaria:\*\*   
+\*\*Documentacion complementaria:\*\*   
 \[Ver Actividad 2\](documentación/Actividad2.md) 
 
 \#\#\# Actividad 3 \[Aquí va el desarrollo completo de la Actividad 3.\]   
-\*\*Documentación complementaria:\*\*   
+\*\*Documentacion complementaria:\*\*   
 \[Ver Actividad 3\](documentación/Actividad3.md) 
 
 \#\#\# Actividad 4 \[Aquí va el desarrollo completo de la Actividad 4.\] \*\*Documentación complementaria:\*\* \[Ver Actividad 4\](documentación/Actividad4.md) 
