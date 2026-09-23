@@ -60,17 +60,12 @@ Resultado: son los datos procesados y organizados para poder consultarlos.
 Podemos representarlo así:
 
 
-DATO
-Cantidad de estudiantes
-↓
-ESTRUCTURA
-Arreglo / vector
-↓
-ALGORITMO
-Buscar, insertar y ordenar
-↓
-RESULTADO
-Información organizada
+| Elemento | Descripción |
+|---|---|
+| Dato | Cantidad de estudiantes inscritos |
+| Estructura de datos | Arreglo / vector |
+| Algoritmo | Permite procesar los datos |
+| Resultado | Información obtenida |
 
 En nuestro caso, primero tenemos los datos de los estudiantes, luego los almacenamos en una estructura y finalmente aplicamos los algoritmos necesarios para obtener los resultados.
 
