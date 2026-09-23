@@ -36,12 +36,12 @@ De esta manera, las matrices permiten organizar información cuando se necesita 
 
 Estos tres conceptos se relacionan directamente en nuestra solución.
 
-| Concepto | Descripción |
+| Concepto | Aplicación en la solución |
 |---|---|
 | Dato | Cantidad de estudiantes inscritos |
 | Estructura de datos | Arreglo / vector y matriz|
 | Algoritmo | Permite procesar los datos |
-| Resultado | Información obtenida |
+| Resultado | Información organizada para su consulta |
 
-En nuestro caso, los datos de los estudiantes se organizan mediante una estructura de datos y se procesan mediante algoritmos para obtener la información requerida.
+Los datos corresponden a la información que se necesita trabajar. El arreglo o vector y la matriz permiten organizar esta información, mientras que los algoritmos permiten procesarla para obtener los resultados requeridos.
 
