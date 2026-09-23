@@ -19,31 +19,71 @@ public class PA1 {
 
         // Vector de la Actividad 2
         int[] inscritos = new int[15]; // Capacidad reservada
-        int[] datosIniciales = {28, 15, 34, 21, 19, 40, 12, 26};
-        int usados = datosIniciales.length;
+        int[] notas = new int[15]; // Capacidad reservada
+        int[] datosIniciales = {28, 15, 34, 21, 19, 40, 12, 26}; 
+        int usados = datosIniciales.length;// 08 elementos 
 
         // Copia de los datos iniciales al arreglo principal
         for (int i = 0; i < usados; i++) {
             inscritos[i] = datosIniciales[i];
+            notas[i] = datosIniciales[i];
         }
 
         // 2.1 Representacion del vector
-        ejemploRepresentar(inscritos, usados);
+         System.out.println("-------------------- 2.1 REPRESENTACION E INDICES --------------------");
+
+        for (int i = 0; i < usados; i++) {
+            System.out.println("Indice " + i + " -> Valor: " + inscritos[i]); // visualizando los valores de cada posicion en el vector
+        }
+        System.out.println();
 
         // 2.2 Mayor y menor
-        ejemploMaximoMinimo(inscritos, usados);
+        System.out.println("-------------------- 2.2 MAXIMO Y MINIMO --------------------");
+
+        int max = inscritos[0];
+        int min = inscritos[0];
+
+        for (int i = 1; i < usados; i++) { // reviso desde la posicion 1 del vector cual es mayor y menor a ese, si cumple el nuevo valor pasa a ser mi nuevo max y min y luego interactuo hasta el fin de la longitud del vector revisando cual es el nuevo max y min segun la posicion de mi vector  
+            if (inscritos[i] > max) {
+                max = inscritos[i];
+            }
+
+            if (inscritos[i] < min) {
+                min = inscritos[i];
+            }
+        }
+
+        System.out.println("Mayor cantidad de inscritos: " + max);
+        System.out.println("Menor cantidad de inscritos: " + min);
+        System.out.println();
+        
 
         // 2.3 Insercion de un nuevo valor
         System.out.println("-------------------- 2.3 INSERCION DE UN ELEMENTO --------------------");
 
         System.out.print("Ingrese el nuevo valor: ");
-        int valor = entrada.nextInt();
+        int valor = entrada.nextInt(); // nuevo valor, el usuario debe digitarlo 
 
         System.out.print("Ingrese la posicion donde desea insertarlo: ");
-        int posicion = entrada.nextInt();
+        int posicion = entrada.nextInt(); // usuario debe insertar la posicion que desea 
 
-        if (posicion >= 0 && posicion <= usados && usados < inscritos.length) {
-            usados = ejemploInsertar(inscritos, usados, posicion, valor);
+        if (posicion >= 0 && posicion <= usados && usados < inscritos.length) { // limitaciones para el usuario, que solo pueda ser mayor o igual al indice 0 y que este dentro del rango del vector 
+        
+         //{28, 15, 34, 21, 19, 40, 12, 26,xx}; //desplazo los valores a una posicion adicional que es la posicion 8
+            for (int i = usados; i > posicion; i--) {
+                notas[i] = notas[i - 1]; 
+            }
+
+            notas[posicion] = valor; // asignando el nuevo valor en la posicion que se indique
+            usados++; // expandiendo la capacidad del vector 
+
+            System.out.println("Se inserto " + valor + " en el indice " + posicion);
+            System.out.println("Vector despues de la insercion:");
+
+            ejemploUsados(notas, usados);
+            System.out.println();
+
+
         } else {
             System.out.println("Posicion no valida o capacidad maxima alcanzada.");
             System.out.println();
@@ -64,73 +104,7 @@ public class PA1 {
         // No cerramos Scanner porque System.in sigue siendo utilizado
         // por el programa.
     }
-
-    // ============================================================
-    // 2.1 REPRESENTACION E INDICES
-    // ============================================================
-    public static void ejemploRepresentar(int[] notas, int usados) {
-
-        System.out.println("-------------------- 2.1 REPRESENTACION E INDICES --------------------");
-
-        for (int i = 0; i < usados; i++) {
-            System.out.println("Indice " + i + " -> Valor: " + notas[i]);
-        }
-
-        System.out.println();
-    }
-
-    // ============================================================
-    // 2.2 MAXIMO Y MINIMO
-    // ============================================================
-    public static void ejemploMaximoMinimo(int[] notas, int usados) {
-
-        System.out.println("-------------------- 2.2 MAXIMO Y MINIMO --------------------");
-
-        int max = notas[0];
-        int min = notas[0];
-
-        for (int i = 1; i < usados; i++) {
-            if (notas[i] > max) {
-                max = notas[i];
-            }
-
-            if (notas[i] < min) {
-                min = notas[i];
-            }
-        }
-
-        System.out.println("Mayor cantidad de inscritos: " + max);
-        System.out.println("Menor cantidad de inscritos: " + min);
-        System.out.println();
-    }
-
-    // ============================================================
-    // 2.3 INSERCION DE UN ELEMENTO
-    // ============================================================
-    public static int ejemploInsertar(
-        int[] notas,
-        int usados,
-        int posicion,
-        int valor
-    ) {
-
-        for (int i = usados; i > posicion; i--) {
-
-            notas[i] = notas[i - 1];
-        }
-
-        notas[posicion] = valor;
-        usados++;
-
-        System.out.println("Se inserto " + valor + " en el indice " + posicion);
-        System.out.println("Vector despues de la insercion:");
-
-        ejemploUsados(notas, usados);
-        System.out.println();
-
-        return usados;
-    }
-
+    
     // ============================================================
     // 2.4 ORDENAMIENTO ASCENDENTE - BURBUJA
     // ============================================================
